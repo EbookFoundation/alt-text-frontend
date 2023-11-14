@@ -1,0 +1,26 @@
+.navbar {
+  background-color: var(--bs-light);
+  border-bottom: solid 1px var(--bs-gray-200);
+
+  > * {
+    width: 100%;
+    max-width: var(--max-width-xl);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .navbarbrand {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        height: 100%;
+      }
+    }
+    .rightContent {
+      display: flex;
+    }
+  }
+}
